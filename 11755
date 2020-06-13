@@ -1,0 +1,6 @@
+import sys
+
+print ('typy https site: ')
+hostname = input()
+ip=socket.gethostbyname(hostname)
+print ('host name is: ',hostname, '\n' 'target ip is: ',ip)
