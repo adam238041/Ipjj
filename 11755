@@ -1,5 +1,5 @@
 import sys
-
+import socket
 print ('typy https site: ')
 hostname = input()
 ip=socket.gethostbyname(hostname)
